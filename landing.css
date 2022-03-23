@@ -116,6 +116,7 @@ h1{
     border: 2px solid rgb(84,84,84);
     border-radius: 5px;
     width:100%;
+    filter:drop-shadow(10px 10px 10px lightgray);
 }
 
 .quote {
@@ -142,11 +143,12 @@ h1{
     margin:auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding:10px 20px 10px 20px;
+    padding:0px 20px 10px 20px;
     border-radius: 5px;
     align-items: flex-end;
     justify-content: space-evenly;
     width:50%;
+    filter: drop-shadow(10px 10px 15px lightgray);
 }
 
 
@@ -165,4 +167,5 @@ button {
     border-style: solid;
     color:white;
     width:90px;
+    margin-bottom: 18px;
 }
